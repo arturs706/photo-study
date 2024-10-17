@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'ivy': ['var(--font-ivy-mode)', 'sans-serif'],
+        'ivy-bold-italic': ['var(--font-ivy-mode-bold-italic)', 'sans-serif'],
+      },
     },
   },
   plugins: [],
